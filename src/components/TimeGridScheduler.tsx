@@ -20,6 +20,7 @@ import scrollIntoView from 'scroll-into-view-if-needed';
 import { SchedulerContext } from '../context';
 import { useClickAndDrag } from '../hooks/useClickAndDrag';
 import { useMousetrap } from '../hooks/useMousetrap';
+import { ExtendedKeyboardEvent } from 'mousetrap';
 import {
   CellInfo,
   ClassNames,
